@@ -1,0 +1,29 @@
+$body: #212534;
+$nav: #292b34;
+$card: #191c29;
+
+:root {
+    --cp-color-1-hsl: 0deg 0% 100%;
+    --cp-color-1: hsl(var(--cp-color-1-hsl));
+    --cp-color-11-hsl: 228.3870967742deg 12.2529644269% 50.3921568627%;
+    --cp-color-11: hsl(var(--cp-color-11-hsl));
+    --cp-color-12-hsl: 228deg 12.1951219512% 40.1960784314%;
+    --cp-color-12: hsl(var(--cp-color-12-hsl));
+    --cp-color-13-hsl: 227.3684210526deg 12.2580645161% 30.3921568627%;
+    --cp-color-13: hsl(var(--cp-color-13-hsl));
+    --cp-color-15-hsl: 223.6363636364deg 12.9411764706% 16.6666666667%;
+    --cp-color-15: hsl(var(--cp-color-15-hsl));
+    --cp-color-17-hsl: 225deg 9.5238095238% 8.2352941176%;
+    --cp-color-17: hsl(var(--cp-color-17-hsl));
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
